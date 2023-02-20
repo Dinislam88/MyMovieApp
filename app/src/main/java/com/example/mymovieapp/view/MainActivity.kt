@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 authUser?.let {
                     val email = it.email.toString()
                     val uid = it.uid
-                    val firebaseUser = User(email, uid)
+                    val firebaseUser = User()
 
                     mMainActivityViewModel.updateUserData(firebaseUser, uid)
 
