@@ -5,11 +5,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mymovieapp.R
+import com.example.mymovieapp.data.Result
+import com.example.mymovieapp.view.MoviesActivity
+import com.squareup.picasso.Picasso
 
 class CustomAdapter(private val mList: List<Result?>,
-val mItemClickListener: MoviesActivity
+                    val mItemClickListener: ItemClickListener
 ) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
+    interface ItemClickListener{
+        fun onItemClick(position: Int)
+    }
 
     // create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

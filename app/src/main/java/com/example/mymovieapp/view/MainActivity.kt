@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.mymovieapp.R
 import com.example.mymovieapp.data.User
-import com.example.mymovieapp.view.viewmodel.MainActivityViewModel
+import com.example.mymovieapp.viewmodel.MainActivityViewModel
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
 import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult

@@ -1,4 +1,4 @@
-package com.example.mymovieapp.view.viewmodel
+package com.example.mymovieapp.viewmodel
 
 import com.example.mymovieapp.data.User
 import com.example.mymovieapp.model.repository.FirebaseRepository
