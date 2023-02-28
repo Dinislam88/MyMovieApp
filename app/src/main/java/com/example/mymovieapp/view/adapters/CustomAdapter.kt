@@ -7,7 +7,6 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mymovieapp.R
 import com.example.mymovieapp.data.Result
-import com.example.mymovieapp.view.MoviesActivity
 import com.squareup.picasso.Picasso
 
 class CustomAdapter(private val mList: List<Result?>,
